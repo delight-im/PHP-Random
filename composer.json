@@ -1,0 +1,17 @@
+{
+	"name": "delight-im/random",
+	"description": "The most convenient way to securely generate anything random in PHP",
+	"require": {
+		"php": ">=7.0.0",
+		"delight-im/alphabets": "^1.0"
+	},
+	"type": "library",
+	"keywords": [ "random", "pseudo-random", "pseudorandom", "prng", "csprng", "cryptography", "random-numbers", "random-strings", "generator", "strings", "numbers", "integers" ],
+	"homepage": "https://github.com/delight-im/PHP-Random",
+	"license": "MIT",
+	"autoload": {
+		"psr-4": {
+			"Delight\\Random\\": "src/"
+		}
+	}
+}
